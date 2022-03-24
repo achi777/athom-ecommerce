@@ -1,0 +1,27 @@
+{
+  "name": "wafi/framework",
+  "type": "library",
+  "description": "PHP MVC Framework With Template Engine",
+  "keywords": ["WAFI_PHP", "WAFI", "WAFI_FRAMEWORK", "AO_FRAMEWORK", "MVC", "TEMPLATE ENGINE"],
+  "homepage": "https://github.com/achi777/fw",
+  "license": "MIT",
+  "version": "2.0.0",
+  "authors": [
+    {
+      "name": "Archil Odishelidze",
+      "email": "archil.odishelidze@gmail.com",
+      "homepage": "https://github.com/achi777",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "classmap": ["src/"]
+  },
+  "require": {
+    "PHP": ">=7.0.0"
+
+  }
+}

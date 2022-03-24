@@ -1,0 +1,134 @@
+<?php
+/*************ავტორიზაცია************/
+define('email','ელ.ფოსტა');
+define('password','პაროლი');
+define('rpassword','გაიმეორეთ პაროლი');
+define('old_password','არსებული პაროლი');
+/**********პერსონალური ინფო*********/
+define('firstname','სახელი');
+define('lastname','გვარი');
+define('birthday','დაბადების თარიღი');
+define('passNum','პირადი ნომერი');
+define('gender','სქესი');
+/***********საკონტაქტო**********/
+define('city','ქალაქი');
+define('address','მისამართი');
+define('tel','ტელეფონი');
+/******************************/
+define('reg_or_login','იმისათვის რომ შეძლოთ საიტით სარგებლობა, უნდა გაიაროთ ავტორიზაცია');
+define('profile','პროფილი');
+define('login','ავტორიზაცია');
+define('incorrect_login','ავტორიზაციისათვის მითითებული ელ. ფოსტა ან პაროლი არასწორია');
+define('message','შეტყობინება');
+define('password_confirm_error','პაროლის დადსტურება არ მოხერხდა');
+define('old_password_error','არსებული პაროლი არასწორად იქნა მითითებული');
+define('enter_new_password','შეიყვანეთ ახალი პაროლი');
+define('user_exist','მითითებული ელ. ფოსტით მომხმარებელი უკვე რეგისტრირებულია');
+define('user_not_exist','მითითებული ელ. ფოსტით მომხმარებელი არ არის რეგისტრირებულია');
+define('forget_link_is_sent','პაროლის აღსადგენი ბმული გამოგზავნილია მითითებული ელ. ფოსტიაზე');
+define('user_login','მომხმარებლის ავტორიზაცია');
+define('registration','რეგისტრაცია');
+define('settings','პარამეტრები');
+define('logout','გამოსვლა');
+define('passRec','პაროლის აღდგენა');
+define('password_changed','პაროლი წარმატებით შეიცვალა');
+define('passRecText','იმისათვის რომ პაროლი შეცვალოთ გადადით მითითებულ ბმულზე');
+define('passChange','პაროლის შეცვლა');
+define('passRec_title','მიუთითეთ ელ. ფოსტა რომელითაც რეგისტრირებული ხართ საიტზე');
+define('authField','ველები ავტორიზაციისათვის');
+define('personData','პირადი ინფორმაცია');
+define('orders','შეკვეთები');
+define('contactPersonData','საკონტაქტო პირის პირადი ინფორმაცია');
+define('contactData','საკონტაქტო ინფორმაცია');
+define('conditions','წესები და პირობები');
+define('termOfCondition','მე წავიკითხე და ვეთანხმები წესებს და პირობებს');
+define('personReg','ფიზიკური პირის რეგისტრაცია');
+define('legalReg','იურიდიული პირის რეგისტრაცია');
+define('newReg','ახალი მომხმარებლის რეგისტრაცია');
+define('companyInfo','ინფორმაცია კომპანიაზე');
+define('companyName','კომპანიის დასახელება');
+define('companyID','საინდეფიკაციო კოდი');
+/************კატეგორიები**************/
+define('home','მთავარი');
+define('services','სერვისები');
+define('blog','საინფორმაციო ბლოგი');
+define('shopping','შოპინგი');
+define('help','დახმარება');
+define('about','ჩვენს შესახებ');
+define('contact','კონტაქტი');
+/*************************************/
+define('tracking','თრეკინგ კოდი');
+define('add','დამატება');
+define('declar','დეკლარირება');
+define('toStock','გზაში საწყობისაკენ');
+define('inStock','საწყობში');
+define('toGeorgia','გზაში საქართველოსაკენ');
+define('inGeorgia','საქართველოში');
+define('recived','მიღებული');
+define('transactions','ტრანზექციები');
+/*************************************/
+define('insurance','დაზღვევა');
+define('insure','დააზღვიეთ');
+define('declaration','დეკლარაცია');
+define('declaring','დეკლარირება');
+define('delete','წაშლა');
+define('close','დახურვა');
+define('hello','მოგესალმებით');
+/*************************************/
+define('price','ფასი');
+define('shop','მაღაზია');
+define('packet','გზავნილი');
+define('enterSender','მიუთითეთ გამომგზავნი');
+define('deposit','დეპოზიტი');
+define('search','ძებნა');
+define('add_to_cart','კალათში დამატება');
+define('shopping_cart','კალათი');
+define('product_view','დათვალიერება');
+define('zoom','გადიდება');
+define('bestseller','ხშირად ნანახი');
+define('item','ნივთი');
+define('new_items','ახალი დამატებული');
+define('name','სახელი');
+define('image','ფოტო');
+define('shipping_cost','მიტანის ღირებულება');
+define('sub_total','პროდუცტის ღირებულება');
+define('shipping_total','მიტანის ღირებულება');
+define('total_price','გადასახდელი თანხა');
+define('total_sale_cost','დანაზოგი');
+define('checkout','გადახდა');
+define('continue_shopping','შოპინგის გაგრძელება');
+define('invoice','ინვოისი');
+define('coupon','ფასდაკლების ვაუჩერი');
+define('enter_your_coupon','შეიყვანეთ ვაუჩერის კოდი');
+define('enter','შეყვანა');
+define('item_name','პროდუქტის დასახელება');
+define('quantity','რაოდენობა');
+define('wishlist', 'სურვილების სია');
+/*************************************/
+define('save','შენახვა');
+define('remove','წაშლა');
+define('fullView','იხილეთ დაწვრილებით');
+define('view_details','დეტალურად');
+define('product_details','დეტალები');
+define('back','უკან');
+define('category','კატეგორია');
+define('weight','წონა');
+define('brand','ბრენდი');
+define('product_title','პროდუქტის დასახელება');
+define('clothes_that_fit', 'პროდუქცია რომელიც უხდება');
+define('clothes','ტანსაცმელი');
+define('gallery','გალერეა');
+define('tranding','ტრენდული');
+define('SpecialOffer','სპეციალური შეთავაზება');
+
+/***********SQL**************/
+define('product_name','product_name_geo');
+define('product_desc','product_desc_geo');
+define('product_full','product_full_geo');
+define('product_cat_name','product_cat_name_geo');
+define('cat_name','cat_name_geo');
+define('header_text','header_text_geo');
+define('title','title_geo');
+define('description','description_geo');
+define('details','details_geo');
+define('color_name','color_name_geo');
