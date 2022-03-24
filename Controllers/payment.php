@@ -20,11 +20,6 @@ class Controller extends init
         $controller = $this->helper->segment(1);
         $data['controller'] = $controller;
         $data['contact'] = $this->model->contact();
-        /*
-        * real user
-        * 11380
-        * 1f0f62b9440cc9cb1a7c4d59f3ac75af
-        */
         if (isset($_POST['pay']) || isset($_POST['installment']) || isset($_POST['cardpayment'])) {
             $token = $this->getToken(paymentUser, paymentPass);
             if(isset($_POST['pay'])){
