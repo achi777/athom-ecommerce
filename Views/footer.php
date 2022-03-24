@@ -246,7 +246,7 @@
 
 $(document).on('change', '#search', function(){
     let word = $("#search").val();
-    window.location.href = "http://192.168.64.2/shop/1/x/x/x/x/x/" + word + "/";
+    window.location.href = "{{baseurl}}/shop/1/x/x/x/x/x/" + word + "/";
 });
 </script>
 <@if($controller=="main" ):@>
@@ -422,13 +422,13 @@ $(document).on('change', '#search', function(){
 
       function search() {
         var word = $("#search").val();
-        window.location.href = "http://192.168.64.2/shop/x/x/x/x/x/x/" + word + "/";
+        window.location.href = "{{baseurl}}/shop/x/x/x/x/x/x/" + word + "/";
       }
 
       $("#search").keyup(function(event) {
         if (event.keyCode === 13) {
           var word = $("#search").val();
-          window.location.href = "http://192.168.64.2/shop/x/x/x/x/x/x/" + word + "/";
+          window.location.href = "{{baseurl}}/shop/x/x/x/x/x/x/" + word + "/";
         }
       });
     </script>
